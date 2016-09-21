@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7CFA60D71D9274AA00474F55 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CFA60D61D9274AA00474F55 /* main.m */; };
+		7CFA60DA1D9274AA00474F55 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CFA60D91D9274AA00474F55 /* AppDelegate.m */; };
+		7CFA60DD1D9274AA00474F55 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CFA60DC1D9274AA00474F55 /* ViewController.m */; };
+		7CFA60E01D9274AA00474F55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CFA60DE1D9274AA00474F55 /* Main.storyboard */; };
+		7CFA60E21D9274AA00474F55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CFA60E11D9274AA00474F55 /* Assets.xcassets */; };
+		7CFA60E51D9274AA00474F55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CFA60E31D9274AA00474F55 /* LaunchScreen.storyboard */; };
+		7CFA60F01D9274AA00474F55 /* CeckColorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CFA60EF1D9274AA00474F55 /* CeckColorTests.m */; };
+		7CFA60FB1D9274AA00474F55 /* CeckColorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CFA60FA1D9274AA00474F55 /* CeckColorUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7CFA60EC1D9274AA00474F55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CFA60CA1D9274AA00474F55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CFA60D11D9274AA00474F55;
+			remoteInfo = CeckColor;
+		};
+		7CFA60F71D9274AA00474F55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CFA60CA1D9274AA00474F55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CFA60D11D9274AA00474F55;
+			remoteInfo = CeckColor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7CFA60D21D9274AA00474F55 /* CeckColor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CeckColor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CFA60D61D9274AA00474F55 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7CFA60D81D9274AA00474F55 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7CFA60D91D9274AA00474F55 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7CFA60DB1D9274AA00474F55 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7CFA60DC1D9274AA00474F55 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7CFA60DF1D9274AA00474F55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7CFA60E11D9274AA00474F55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7CFA60E41D9274AA00474F55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7CFA60E61D9274AA00474F55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CFA60EB1D9274AA00474F55 /* CeckColorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CeckColorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CFA60EF1D9274AA00474F55 /* CeckColorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CeckColorTests.m; sourceTree = "<group>"; };
+		7CFA60F11D9274AA00474F55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CFA60F61D9274AA00474F55 /* CeckColorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CeckColorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CFA60FA1D9274AA00474F55 /* CeckColorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CeckColorUITests.m; sourceTree = "<group>"; };
+		7CFA60FC1D9274AA00474F55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7CFA60CF1D9274AA00474F55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CFA60E81D9274AA00474F55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CFA60F31D9274AA00474F55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7CFA60C91D9274AA00474F55 = {
+			isa = PBXGroup;
+			children = (
+				7CFA60D41D9274AA00474F55 /* CeckColor */,
+				7CFA60EE1D9274AA00474F55 /* CeckColorTests */,
+				7CFA60F91D9274AA00474F55 /* CeckColorUITests */,
+				7CFA60D31D9274AA00474F55 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7CFA60D31D9274AA00474F55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CFA60D21D9274AA00474F55 /* CeckColor.app */,
+				7CFA60EB1D9274AA00474F55 /* CeckColorTests.xctest */,
+				7CFA60F61D9274AA00474F55 /* CeckColorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7CFA60D41D9274AA00474F55 /* CeckColor */ = {
+			isa = PBXGroup;
+			children = (
+				7CFA60D81D9274AA00474F55 /* AppDelegate.h */,
+				7CFA60D91D9274AA00474F55 /* AppDelegate.m */,
+				7CFA60DB1D9274AA00474F55 /* ViewController.h */,
+				7CFA60DC1D9274AA00474F55 /* ViewController.m */,
+				7CFA60DE1D9274AA00474F55 /* Main.storyboard */,
+				7CFA60E11D9274AA00474F55 /* Assets.xcassets */,
+				7CFA60E31D9274AA00474F55 /* LaunchScreen.storyboard */,
+				7CFA60E61D9274AA00474F55 /* Info.plist */,
+				7CFA60D51D9274AA00474F55 /* Supporting Files */,
+			);
+			path = CeckColor;
+			sourceTree = "<group>";
+		};
+		7CFA60D51D9274AA00474F55 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7CFA60D61D9274AA00474F55 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7CFA60EE1D9274AA00474F55 /* CeckColorTests */ = {
+			isa = PBXGroup;
+			children = (
+				7CFA60EF1D9274AA00474F55 /* CeckColorTests.m */,
+				7CFA60F11D9274AA00474F55 /* Info.plist */,
+			);
+			path = CeckColorTests;
+			sourceTree = "<group>";
+		};
+		7CFA60F91D9274AA00474F55 /* CeckColorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7CFA60FA1D9274AA00474F55 /* CeckColorUITests.m */,
+				7CFA60FC1D9274AA00474F55 /* Info.plist */,
+			);
+			path = CeckColorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7CFA60D11D9274AA00474F55 /* CeckColor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CFA60FF1D9274AA00474F55 /* Build configuration list for PBXNativeTarget "CeckColor" */;
+			buildPhases = (
+				7CFA60CE1D9274AA00474F55 /* Sources */,
+				7CFA60CF1D9274AA00474F55 /* Frameworks */,
+				7CFA60D01D9274AA00474F55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CeckColor;
+			productName = CeckColor;
+			productReference = 7CFA60D21D9274AA00474F55 /* CeckColor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7CFA60EA1D9274AA00474F55 /* CeckColorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CFA61021D9274AA00474F55 /* Build configuration list for PBXNativeTarget "CeckColorTests" */;
+			buildPhases = (
+				7CFA60E71D9274AA00474F55 /* Sources */,
+				7CFA60E81D9274AA00474F55 /* Frameworks */,
+				7CFA60E91D9274AA00474F55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CFA60ED1D9274AA00474F55 /* PBXTargetDependency */,
+			);
+			name = CeckColorTests;
+			productName = CeckColorTests;
+			productReference = 7CFA60EB1D9274AA00474F55 /* CeckColorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7CFA60F51D9274AA00474F55 /* CeckColorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CFA61051D9274AA00474F55 /* Build configuration list for PBXNativeTarget "CeckColorUITests" */;
+			buildPhases = (
+				7CFA60F21D9274AA00474F55 /* Sources */,
+				7CFA60F31D9274AA00474F55 /* Frameworks */,
+				7CFA60F41D9274AA00474F55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CFA60F81D9274AA00474F55 /* PBXTargetDependency */,
+			);
+			name = CeckColorUITests;
+			productName = CeckColorUITests;
+			productReference = 7CFA60F61D9274AA00474F55 /* CeckColorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7CFA60CA1D9274AA00474F55 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = ShouQu;
+				TargetAttributes = {
+					7CFA60D11D9274AA00474F55 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = VWXUY75968;
+						ProvisioningStyle = Automatic;
+					};
+					7CFA60EA1D9274AA00474F55 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = VWXUY75968;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7CFA60D11D9274AA00474F55;
+					};
+					7CFA60F51D9274AA00474F55 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = VWXUY75968;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7CFA60D11D9274AA00474F55;
+					};
+				};
+			};
+			buildConfigurationList = 7CFA60CD1D9274AA00474F55 /* Build configuration list for PBXProject "CeckColor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7CFA60C91D9274AA00474F55;
+			productRefGroup = 7CFA60D31D9274AA00474F55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7CFA60D11D9274AA00474F55 /* CeckColor */,
+				7CFA60EA1D9274AA00474F55 /* CeckColorTests */,
+				7CFA60F51D9274AA00474F55 /* CeckColorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7CFA60D01D9274AA00474F55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CFA60E51D9274AA00474F55 /* LaunchScreen.storyboard in Resources */,
+				7CFA60E21D9274AA00474F55 /* Assets.xcassets in Resources */,
+				7CFA60E01D9274AA00474F55 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CFA60E91D9274AA00474F55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CFA60F41D9274AA00474F55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CFA60CE1D9274AA00474F55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CFA60DD1D9274AA00474F55 /* ViewController.m in Sources */,
+				7CFA60DA1D9274AA00474F55 /* AppDelegate.m in Sources */,
+				7CFA60D71D9274AA00474F55 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CFA60E71D9274AA00474F55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CFA60F01D9274AA00474F55 /* CeckColorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CFA60F21D9274AA00474F55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CFA60FB1D9274AA00474F55 /* CeckColorUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7CFA60ED1D9274AA00474F55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CFA60D11D9274AA00474F55 /* CeckColor */;
+			targetProxy = 7CFA60EC1D9274AA00474F55 /* PBXContainerItemProxy */;
+		};
+		7CFA60F81D9274AA00474F55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CFA60D11D9274AA00474F55 /* CeckColor */;
+			targetProxy = 7CFA60F71D9274AA00474F55 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7CFA60DE1D9274AA00474F55 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CFA60DF1D9274AA00474F55 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7CFA60E31D9274AA00474F55 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CFA60E41D9274AA00474F55 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7CFA60FD1D9274AA00474F55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7CFA60FE1D9274AA00474F55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7CFA61001D9274AA00474F55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VWXUY75968;
+				INFOPLIST_FILE = CeckColor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cpm.meixun.CeckColor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7CFA61011D9274AA00474F55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VWXUY75968;
+				INFOPLIST_FILE = CeckColor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cpm.meixun.CeckColor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7CFA61031D9274AA00474F55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = VWXUY75968;
+				INFOPLIST_FILE = CeckColorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cpm.meixun.CeckColorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CeckColor.app/CeckColor";
+			};
+			name = Debug;
+		};
+		7CFA61041D9274AA00474F55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = VWXUY75968;
+				INFOPLIST_FILE = CeckColorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cpm.meixun.CeckColorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CeckColor.app/CeckColor";
+			};
+			name = Release;
+		};
+		7CFA61061D9274AA00474F55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = VWXUY75968;
+				INFOPLIST_FILE = CeckColorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cpm.meixun.CeckColorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CeckColor;
+			};
+			name = Debug;
+		};
+		7CFA61071D9274AA00474F55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = VWXUY75968;
+				INFOPLIST_FILE = CeckColorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cpm.meixun.CeckColorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CeckColor;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7CFA60CD1D9274AA00474F55 /* Build configuration list for PBXProject "CeckColor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CFA60FD1D9274AA00474F55 /* Debug */,
+				7CFA60FE1D9274AA00474F55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CFA60FF1D9274AA00474F55 /* Build configuration list for PBXNativeTarget "CeckColor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CFA61001D9274AA00474F55 /* Debug */,
+				7CFA61011D9274AA00474F55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7CFA61021D9274AA00474F55 /* Build configuration list for PBXNativeTarget "CeckColorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CFA61031D9274AA00474F55 /* Debug */,
+				7CFA61041D9274AA00474F55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7CFA61051D9274AA00474F55 /* Build configuration list for PBXNativeTarget "CeckColorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CFA61061D9274AA00474F55 /* Debug */,
+				7CFA61071D9274AA00474F55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7CFA60CA1D9274AA00474F55 /* Project object */;
+}
