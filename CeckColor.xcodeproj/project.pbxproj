@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C9A63511DB88482002D6371 /* WLTScrollview.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C9A63501DB88482002D6371 /* WLTScrollview.m */; };
+		7CF83F1C1E276DDB00A58200 /* 777.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CF83F1B1E276DDB00A58200 /* 777.png */; };
+		7CF83F1E1E276E2400A58200 /* 999.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CF83F1D1E276E2400A58200 /* 999.jpg */; };
+		7CF83F201E27880A00A58200 /* 000.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CF83F1F1E27880A00A58200 /* 000.jpg */; };
 		7CFA60D71D9274AA00474F55 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CFA60D61D9274AA00474F55 /* main.m */; };
 		7CFA60DA1D9274AA00474F55 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CFA60D91D9274AA00474F55 /* AppDelegate.m */; };
 		7CFA60DD1D9274AA00474F55 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CFA60DC1D9274AA00474F55 /* ViewController.m */; };
@@ -15,6 +19,16 @@
 		7CFA60E51D9274AA00474F55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CFA60E31D9274AA00474F55 /* LaunchScreen.storyboard */; };
 		7CFA60F01D9274AA00474F55 /* CeckColorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CFA60EF1D9274AA00474F55 /* CeckColorTests.m */; };
 		7CFA60FB1D9274AA00474F55 /* CeckColorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CFA60FA1D9274AA00474F55 /* CeckColorUITests.m */; };
+		7CFA610A1D9275DC00474F55 /* UIColor+CheckBorderColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CFA61091D9275DC00474F55 /* UIColor+CheckBorderColor.m */; };
+		7CFA610E1D927B2400474F55 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CFA610B1D927B2400474F55 /* 2.png */; };
+		7CFA610F1D927B2400474F55 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CFA610C1D927B2400474F55 /* 3.png */; };
+		7CFA61101D927B2400474F55 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CFA610D1D927B2400474F55 /* 5.png */; };
+		7CFA61131D927C7200474F55 /* 10.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CFA61111D927C7200474F55 /* 10.png */; };
+		7CFA61141D927C7200474F55 /* 20.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CFA61121D927C7200474F55 /* 20.jpg */; };
+		7CFA61161D927CAE00474F55 /* 50.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CFA61151D927CAE00474F55 /* 50.png */; };
+		7CFA611D1D92B27E00474F55 /* IPADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CFA611B1D92B27E00474F55 /* IPADViewController.m */; };
+		7CFA611E1D92B27E00474F55 /* IPADViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CFA611C1D92B27E00474F55 /* IPADViewController.xib */; };
+		7CFA61201D92B50F00474F55 /* IPADViewController~IPAD.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CFA611F1D92B50F00474F55 /* IPADViewController~IPAD.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +49,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7C9A634F1DB88482002D6371 /* WLTScrollview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLTScrollview.h; sourceTree = "<group>"; };
+		7C9A63501DB88482002D6371 /* WLTScrollview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLTScrollview.m; sourceTree = "<group>"; };
+		7CF83F1B1E276DDB00A58200 /* 777.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 777.png; sourceTree = "<group>"; };
+		7CF83F1D1E276E2400A58200 /* 999.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 999.jpg; sourceTree = "<group>"; };
+		7CF83F1F1E27880A00A58200 /* 000.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 000.jpg; sourceTree = "<group>"; };
 		7CFA60D21D9274AA00474F55 /* CeckColor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CeckColor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CFA60D61D9274AA00474F55 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7CFA60D81D9274AA00474F55 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +70,18 @@
 		7CFA60F61D9274AA00474F55 /* CeckColorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CeckColorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CFA60FA1D9274AA00474F55 /* CeckColorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CeckColorUITests.m; sourceTree = "<group>"; };
 		7CFA60FC1D9274AA00474F55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CFA61081D9275DC00474F55 /* UIColor+CheckBorderColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+CheckBorderColor.h"; sourceTree = "<group>"; };
+		7CFA61091D9275DC00474F55 /* UIColor+CheckBorderColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CheckBorderColor.m"; sourceTree = "<group>"; };
+		7CFA610B1D927B2400474F55 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		7CFA610C1D927B2400474F55 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		7CFA610D1D927B2400474F55 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		7CFA61111D927C7200474F55 /* 10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 10.png; sourceTree = "<group>"; };
+		7CFA61121D927C7200474F55 /* 20.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 20.jpg; sourceTree = "<group>"; };
+		7CFA61151D927CAE00474F55 /* 50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 50.png; sourceTree = "<group>"; };
+		7CFA611A1D92B27E00474F55 /* IPADViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPADViewController.h; sourceTree = "<group>"; };
+		7CFA611B1D92B27E00474F55 /* IPADViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPADViewController.m; sourceTree = "<group>"; };
+		7CFA611C1D92B27E00474F55 /* IPADViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IPADViewController.xib; sourceTree = "<group>"; };
+		7CFA611F1D92B50F00474F55 /* IPADViewController~IPAD.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "IPADViewController~IPAD.xib"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +112,23 @@
 		7CFA60C91D9274AA00474F55 = {
 			isa = PBXGroup;
 			children = (
+				7C9A634F1DB88482002D6371 /* WLTScrollview.h */,
+				7C9A63501DB88482002D6371 /* WLTScrollview.m */,
+				7CFA611F1D92B50F00474F55 /* IPADViewController~IPAD.xib */,
+				7CFA61081D9275DC00474F55 /* UIColor+CheckBorderColor.h */,
+				7CFA611A1D92B27E00474F55 /* IPADViewController.h */,
+				7CFA611B1D92B27E00474F55 /* IPADViewController.m */,
+				7CFA611C1D92B27E00474F55 /* IPADViewController.xib */,
+				7CFA61091D9275DC00474F55 /* UIColor+CheckBorderColor.m */,
+				7CFA610B1D927B2400474F55 /* 2.png */,
+				7CF83F1D1E276E2400A58200 /* 999.jpg */,
+				7CF83F1F1E27880A00A58200 /* 000.jpg */,
+				7CF83F1B1E276DDB00A58200 /* 777.png */,
+				7CFA61111D927C7200474F55 /* 10.png */,
+				7CFA61151D927CAE00474F55 /* 50.png */,
+				7CFA61121D927C7200474F55 /* 20.jpg */,
+				7CFA610C1D927B2400474F55 /* 3.png */,
+				7CFA610D1D927B2400474F55 /* 5.png */,
 				7CFA60D41D9274AA00474F55 /* CeckColor */,
 				7CFA60EE1D9274AA00474F55 /* CeckColorTests */,
 				7CFA60F91D9274AA00474F55 /* CeckColorUITests */,
@@ -249,9 +297,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CFA61201D92B50F00474F55 /* IPADViewController~IPAD.xib in Resources */,
+				7CFA611E1D92B27E00474F55 /* IPADViewController.xib in Resources */,
+				7CFA610F1D927B2400474F55 /* 3.png in Resources */,
+				7CF83F1C1E276DDB00A58200 /* 777.png in Resources */,
+				7CF83F201E27880A00A58200 /* 000.jpg in Resources */,
+				7CFA61131D927C7200474F55 /* 10.png in Resources */,
 				7CFA60E51D9274AA00474F55 /* LaunchScreen.storyboard in Resources */,
+				7CFA61161D927CAE00474F55 /* 50.png in Resources */,
 				7CFA60E21D9274AA00474F55 /* Assets.xcassets in Resources */,
+				7CFA61101D927B2400474F55 /* 5.png in Resources */,
+				7CFA610E1D927B2400474F55 /* 2.png in Resources */,
+				7CF83F1E1E276E2400A58200 /* 999.jpg in Resources */,
 				7CFA60E01D9274AA00474F55 /* Main.storyboard in Resources */,
+				7CFA61141D927C7200474F55 /* 20.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,9 +335,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CFA610A1D9275DC00474F55 /* UIColor+CheckBorderColor.m in Sources */,
 				7CFA60DD1D9274AA00474F55 /* ViewController.m in Sources */,
 				7CFA60DA1D9274AA00474F55 /* AppDelegate.m in Sources */,
+				7C9A63511DB88482002D6371 /* WLTScrollview.m in Sources */,
 				7CFA60D71D9274AA00474F55 /* main.m in Sources */,
+				7CFA611D1D92B27E00474F55 /* IPADViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,6 +491,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = VWXUY75968;
 				INFOPLIST_FILE = CeckColor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cpm.meixun.CeckColor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -441,6 +504,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = VWXUY75968;
 				INFOPLIST_FILE = CeckColor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cpm.meixun.CeckColor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -516,6 +580,7 @@
 				7CFA61011D9274AA00474F55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7CFA61021D9274AA00474F55 /* Build configuration list for PBXNativeTarget "CeckColorTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +589,7 @@
 				7CFA61041D9274AA00474F55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7CFA61051D9274AA00474F55 /* Build configuration list for PBXNativeTarget "CeckColorUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +598,7 @@
 				7CFA61071D9274AA00474F55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

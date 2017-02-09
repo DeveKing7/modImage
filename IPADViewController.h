@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  IPADViewController.h
 //  CeckColor
 //
 //  Created by 美迅 on 16/9/21.
@@ -7,9 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "UIColor+CheckBorderColor.h"
-@interface ViewController : UIViewController
 
+@interface IPADViewController : UIViewController
 
 @end
-
